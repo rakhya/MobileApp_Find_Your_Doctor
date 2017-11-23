@@ -1,0 +1,65 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical"
+    android:weightSum="1">
+
+
+    <ListView
+        android:id="@+id/lvMain"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="60dp"
+        android:layout_marginBottom="60dp"
+        >
+    </ListView>
+
+    <SurfaceView
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:background="#D3D3D3"
+        />
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Select atleast 3 symptoms and click diagnose to get the probable diseases."
+        android:layout_margin="10dp"
+        android:textColor="#000000"
+        android:gravity="center"
+        />
+
+    <Button
+        android:layout_width="160dp"
+        android:layout_height="50dp"
+        android:layout_centerHorizontal="true"
+        android:text="Diagnose"
+        android:background="@drawable/tiles_shape"
+        android:layout_marginRight="15dp"
+        android:layout_marginLeft="15dp"
+        android:textColor="#ffffff"
+        android:textSize="15dp"
+        android:id="@+id/button"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="10dp"
+        >
+    </Button>
+
+    <Button
+        android:layout_width="160dp"
+        android:layout_height="50dp"
+        android:text="Clear check boxes"
+        android:background="@drawable/tiles_shape"
+        android:layout_marginRight="15dp"
+        android:layout_marginLeft="15dp"
+        android:textColor="#ffffff"
+        android:textSize="15dp"
+        android:id="@+id/clear"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="10dp"
+        >
+    </Button>
+
+</RelativeLayout>

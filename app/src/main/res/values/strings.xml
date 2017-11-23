@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">Find Your Doctor!</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+
+    <string name="menu_settings">Settings</string>
+    <string name="get_answer">Click to get Selected Answer</string>
+    <string name="title_activity_maps">Map</string>
+    <string name="title_activity_maps2">Map</string>
+    <string name="title_activity_maps33">Mapp</string>
+</resources>
