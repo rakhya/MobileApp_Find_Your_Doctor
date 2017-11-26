@@ -61,7 +61,7 @@ public class OptionsMenu {
 
             // Setting Dialog Message
             alertDialog.setMessage("Find Your Doctor Health App is your personal healthcare assistant, that brings you the details of nearby doctors along with their details. It also helps you to track or map a disease based on the various symptoms." +
-                    "\n\nDevelopers:\n\nPravarakhya\npravarakhya.chilukuri@gmail.com\n\nNanda Kishore\nnandachavakula@gmail.com\n\nAniket Joshi\naniket_joshi3000@yahoo.co.in\n\nIcons for this app are designed with flaticon.com");
+                    "\n\nDevelopers:\n\nPravarakhya\npravarakhya.chilukuri@gmail.com\n\nNanda Kishore\nnandachavakula@gmail.com\n\nHarsha Yerasu\nhyerasu1@student.gsu.edu\n\nNikhil Vadapalli\ntvadapalli1@student.gsu.edu\n\nAbhay Chaurasia\nachaurasia1@student.gsu.edu\n\nIcons for this app are designed with flaticon.com");
 
 
             // if User clicks Accept
