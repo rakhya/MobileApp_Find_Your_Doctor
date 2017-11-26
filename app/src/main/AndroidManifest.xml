@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="android.gsu.edu.project">
+    package="rakhya.gsu.edu.project">
 
     <!--
          The ACCESS_COARSE/FINE_LOCATION permissions are not required to use
@@ -9,6 +9,8 @@
     -->
     <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
 
+    <uses-permission android:name="android.permission.INTERNET" />
+
     <application
         android:allowBackup="true"
         android:icon="@mipmap/ic_launcher"
@@ -16,7 +18,7 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".MainActivity">
+        <activity android:name="rakhya.gsu.edu.project.MainActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
@@ -36,16 +38,26 @@
             android:value="@string/google_maps_key" />
 
         <activity
-            android:name=".MapsActivity"
+            android:name="rakhya.gsu.edu.project.MapsActivity"
             android:label="@string/title_activity_maps" />
-        <activity android:name=".LoginActivity"></activity>
+        <activity android:name="rakhya.gsu.edu.project.LoginActivity"></activity>
 
-        <activity android:name=".Diagnosis" android:label="@string/app_name" android:theme="@style/Theme.Transparent">
+        <activity android:name="rakhya.gsu.edu.project.Diagnosis" android:label="@string/app_name" android:theme="@style/Theme.Transparent">
             <intent-filter>
                 <action android:name="android.intent.action.DIAGNOSIS" />
 
                 <category android:name="android.intent.category.DEFAULT" />
             </intent-filter>
+        </activity>
+
+        <activity android:name="rakhya.gsu.edu.project.FindDoctorActivity" android:label="@string/app_name">
+        </activity>
+
+        <activity android:name="rakhya.gsu.edu.project.DoctorListActivity" android:label="@string/app_name">
+
+        </activity>
+        <activity android:name="rakhya.gsu.edu.project.DoctorDetailActivity" android:label="@string/app_name">
+
         </activity>
 </application>
 

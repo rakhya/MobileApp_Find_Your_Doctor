@@ -3,7 +3,7 @@ apply plugin: 'com.android.application'
 android {
     compileSdkVersion 26
     defaultConfig {
-        applicationId "android.gsu.edu.project"
+        applicationId "rakhya.gsu.edu.project"
         minSdkVersion 19
         targetSdkVersion 26
         versionCode 1
@@ -16,6 +16,9 @@ android {
             proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
         }
     }
+    buildTypes.each {
+        it.buildConfigField 'String', 'BETTER_DOCTOR_CONSUMER_KEY', BetterDoctorConsumerKey
+    }
 }
 
 dependencies {
@@ -27,4 +30,8 @@ dependencies {
     androidTestImplementation 'com.android.support.test:runner:1.0.1'
     androidTestImplementation 'com.android.support.test.espresso:espresso-core:3.0.1'
     compile 'com.android.support:design:26.1.0'
+    annotationProcessor 'com.jakewharton:butterknife:7.0.1'
+    compile 'com.jakewharton:butterknife:7.0.1'
+    compile 'com.squareup.okhttp3:okhttp:3.2.0'
+    compile 'org.parceler:parceler-api:1.1.1'
 }
