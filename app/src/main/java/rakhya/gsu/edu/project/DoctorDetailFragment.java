@@ -33,7 +33,7 @@ public class DoctorDetailFragment extends Fragment implements View.OnClickListen
     @Bind(R.id.streetTextView) TextView mStreetLabel;
     @Bind(R.id.cityStateTextView) TextView mCityStateLabel;
     @Bind(R.id.bioTextView) TextView mBioLabel;
-    @Bind(R.id.saveDoctorButton) Button mSaveDoctorButton;
+    //@Bind(R.id.saveDoctorButton) Button mSaveDoctorButton;
 
     private Doctor mDoctor;
 
@@ -66,7 +66,7 @@ public class DoctorDetailFragment extends Fragment implements View.OnClickListen
 
         mStreetLabel.setOnClickListener(this);
         mCityStateLabel.setOnClickListener(this);
-        mSaveDoctorButton.setOnClickListener(this);
+        //mSaveDoctorButton.setOnClickListener(this);
 
         return view;
     }
@@ -77,7 +77,7 @@ public class DoctorDetailFragment extends Fragment implements View.OnClickListen
             Intent mapIntent = new Intent(Intent.ACTION_VIEW, Uri.parse("geo:" + mDoctor.getLatitude() + "," + mDoctor.getLongitude() + "?q=(" + mDoctor.getName() + ")"));
             startActivity(mapIntent);
         }
-        if (v == mSaveDoctorButton) {
+        //if (v == mSaveDoctorButton) {
         /*    FirebaseUser user = FirebaseAuth.getInstance().getCurrentUser();
         String uid = user.getUid();
 
@@ -92,7 +92,7 @@ public class DoctorDetailFragment extends Fragment implements View.OnClickListen
         pushRef.setValue(mDoctor);
 
         Toast.makeText(getContext(), "Saved", Toast.LENGTH_SHORT).show();*/
-    }
+    //}
     }
 
 }

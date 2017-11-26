@@ -71,7 +71,7 @@ public class OneFragment extends Fragment
         // Inflate the layout for this fragment
 
         //Return the view. Standard procedure
-        Button clear=(Button)myInflatedView.findViewById(R.id.clear);
+        /*Button clear=(Button)myInflatedView.findViewById(R.id.clear);
         clear.setOnClickListener(new View.OnClickListener()
         {
             @Override
@@ -79,7 +79,7 @@ public class OneFragment extends Fragment
 
 
             }
-        });
+        });*/
 
         Button b1=(Button)myInflatedView.findViewById(R.id.button);
         b1.setOnClickListener(new View.OnClickListener()

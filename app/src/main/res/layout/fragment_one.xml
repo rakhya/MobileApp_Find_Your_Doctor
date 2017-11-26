@@ -31,7 +31,7 @@
         />
 
     <Button
-        android:layout_width="160dp"
+        android:layout_width="match_parent"
         android:layout_height="50dp"
         android:layout_centerHorizontal="true"
         android:text="Diagnose"
@@ -39,7 +39,7 @@
         android:layout_marginRight="15dp"
         android:layout_marginLeft="15dp"
         android:textColor="#ffffff"
-        android:textSize="15dp"
+        android:textSize="20dp"
         android:id="@+id/button"
         android:layout_alignParentEnd="true"
         android:layout_alignParentBottom="true"
@@ -47,7 +47,7 @@
         >
     </Button>
 
-    <Button
+    <!--<Button
         android:layout_width="160dp"
         android:layout_height="50dp"
         android:text="Clear check boxes"
@@ -60,6 +60,6 @@
         android:layout_alignParentBottom="true"
         android:layout_marginBottom="10dp"
         >
-    </Button>
+    </Button>-->
 
 </RelativeLayout>
